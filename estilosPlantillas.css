@@ -10,26 +10,26 @@ body {
   font-family: Arial, Sans-serif;
 }
 
-.contenedor {
+body .contenedor {
   width: 1000px;
   background: #ccc;
   margin: 20px auto;
 }
 
-.contenedor header {
+body .contenedor header {
   background: #30323d;
   color: #fff;
   padding: 20px;
 }
 
-.contenedor .main {
+body .contenedor .main {
   background: #fff;
   width: 700px;
   padding: 20px;
   float: left;
 }
 
-.contenedor aside {
+body .contenedor aside {
   background: #8fe847d8;
   color: #fff;
   padding: 20px;
@@ -37,7 +37,7 @@ body {
   float: left;
 }
 
-.contenedor footer {
+body .contenedor footer {
   clear: both;
   background: #4d5061;
   padding: 20px;

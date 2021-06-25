@@ -3,42 +3,37 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body{
     background:#f2f2f2;
     font-family: Arial, Sans-serif;
-
-}
-
-.contenedor{
+    .contenedor{
     width: 1000px;
     background: #ccc;
     margin: 20px auto;
-    header{
-        background: #30323d;
-        color: #fff;
-        padding: 20px;
-    }
-
-    .main{
-        background: #fff;
-        width: 700px;
-        padding: 20px;
-        float: left;
-    }
-
-    aside{
-        background: #8fe847d8;
-        color: #fff;
-        padding: 20px;
-        width: 300px;
-        float: left;
-    }
-
-    footer{
-        clear: both;
-        background: #4d5061;
-        padding:20px;
-        color: #fff;
+        header{
+            background: #30323d;
+            color: #fff;
+            padding: 20px;
+        }
+        .main{
+            background: #fff;
+            width: 700px;
+            padding: 20px;
+            float: left;
+        }
+        aside{
+            background: #8fe847d8;
+            color: #fff;
+            padding: 20px;
+            width: 300px;
+            float: left;
+        }
+        footer{
+            clear: both;
+            background: #4d5061;
+            padding:20px;
+            color: #fff;
+        }
     }
 }
+
